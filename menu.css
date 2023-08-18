@@ -1,0 +1,167 @@
+.menu{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    width: 100%;
+   
+    /* border: 2px solid rgb(243, 5, 5); */
+}
+.list{
+    display: flex;
+    align-items: center;
+    margin-top: 9px;
+}
+.list li{
+    list-style: none;
+}
+.list i{
+    margin-left: 23px;
+    margin-top: 8px;
+    padding: 0 9px;
+}
+.list a{
+text-decoration: none;
+
+padding: -12px;
+/* margin-bottom: 5px; */
+color: rgb(255, 255, 255);
+font-size: 20px;
+ }
+ .logo{
+    position: absolute;
+    right: 19px;
+    margin-top: 19px;
+ }
+ .logo i{
+    padding-right: 22px;
+ }
+ .full{
+   font-family: 'Kanit', sans-serif !important;
+ }
+ .full::before{
+    background-image: url('https://c8.alamy.com/comp/C7XTED/pizza-fast-food-with-tomato-and-cheese-closeup-C7XTED.jpg');
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+ .put{
+    border: 1px solid white;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    /* text-align: center; */
+    /* justify-content: center; */
+    width: 139px;
+ }
+ .put:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 230, 230);
+ }
+ .center h2{
+   text-align: center;
+
+ }
+ .photo {
+   text-align: center;
+ }
+ .photo img{
+   width: 70%;
+   border-radius: 22px;
+ }
+ .center{
+   /* border: 2px solid black; */
+   background-color: lightcyan;
+   width: 42%;
+   border-radius: 22px;
+    margin: auto;
+
+ }
+ .trans{
+   width: 14pc;
+   line-height: 2;
+   font-weight: bold;
+   background-color: transparent;
+ }
+ .trans:hover{
+   color: white;
+   background-color: black;
+ }
+
+ /* bootstrap.... */
+
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+
+}
+
+/* this is footer */
+
+
+.end{
+   background-color: lightslategray;
+}
+.help{
+   display: flex;
+   justify-content: center;
+   margin: 12px;
+   padding: 22px;
+}
+.call{
+   margin-right: 18px;
+   padding-right: 22px;
+}
+.ca{
+   margin-right: 18px;
+   padding-right: 22px;
+}
+.cal{
+   margin-right: 18px;
+   padding-right: 22px;
+}
+ul{
+   padding-top: 5px;
+   margin-right: 12px;
+}
+.li{
+   list-style: none;
+   
+}
+.write{
+   display: flex;
+   padding-left: 32px;
+   margin-left: 22px;
+}
+.star{
+   float: right;
+}
+.star img{
+   width: 54px;
+   height: 40px;
+   /* image-resolution: 0; */
+
+}

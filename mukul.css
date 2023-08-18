@@ -1,0 +1,363 @@
+*{
+    /* margin: 0 !important;
+    padding: 0 !important; */
+    font-family: 'Kanit', sans-serif !important;
+    color: darkgoldenrod !important;
+}
+.contain{
+    background-color: lightgoldenrodyellow;
+}
+.navbar{
+    width: 100% ;
+    background-color: lightgoldenrodyellow !important;
+}
+ /* .cont::before{
+    background-image: url('https://im.whatshot.in/img/2018/Dec/madhuban-masala-dosa-cropped-1-1545298780.jpg?w=1002&h=668&cc=1') !important;
+    width: 100% !important;
+    height: 100% !important;
+    content: "" !important;
+    z-index: -1 !important;
+    opacity: 0.7 !important;
+    position: absolute !important;
+    background-repeat: no-repeat !important;
+}  */
+.navbar-brand{
+    /* border: 1px solid black; */
+    width: 8% !important;
+}
+.navbar-brand img{
+    width: 80% !important;
+    border-radius: 22px !important;
+}
+.but{
+    float: right !important;
+    margin-left: 32px !important;
+    box-sizing: 12px !important;
+    height: 70% !important;
+}
+.land{
+    display: flex;
+
+}
+.land img{
+    margin-right: 23px;
+}
+.footer{
+    background-color: darkblue;
+}
+.footer h4{
+    text-align: center;
+}
+.help{
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+    padding: 22px;
+}
+ .call{
+    margin-right: 18px;
+    padding-right: 22px;
+ }
+.ca{
+    margin-right: 18px;
+    padding-right: 22px;
+}
+.cal{
+    margin-right: 18px;
+    padding-right: 22px;
+}
+ul{
+    padding-top: 5px;
+    margin-right: 12px;
+}
+.li{
+    list-style: none;
+    
+}
+.write{
+    display: flex;
+    padding-left: 32px;
+    margin-left: 22px;
+}
+.star{
+    float: right;
+}
+.star img{
+    width: 54px;
+    height: 40px;
+    /* image-resolution: 0; */
+
+}
+/* top login buttton */
+
+.btn-cssbuttons {
+    --btn-color: #275efe;
+    position: relative;
+    padding: 16px 32px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: white;
+    background: none;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+    filter: drop-shadow(0 2px 8px rgba(39, 94, 254, 0.32));
+    transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+   }
+   
+   .btn-cssbuttons::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: var(--btn-color);
+    border-radius: 24px;
+    transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+   }
+   
+   .btn-cssbuttons span,
+   .btn-cssbuttons span span {
+    display: inline-flex;
+    vertical-align: middle;
+    transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+   }
+   
+   .btn-cssbuttons span {
+    transition-delay: 0.05s;
+   }
+   
+   .btn-cssbuttons span:first-child {
+    padding-right: 7px;
+   }
+   
+   .btn-cssbuttons span span {
+    margin-left: 8px;
+    transition-delay: 0.1s;
+   }
+   
+   .btn-cssbuttons ul {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    transform: translateY(-50%);
+   }
+   
+   .btn-cssbuttons ul li {
+    flex: 1;
+   }
+   
+   .btn-cssbuttons ul li a {
+    display: inline-flex;
+    vertical-align: middle;
+    transform: translateY(55px);
+    transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+   }
+   
+   .btn-cssbuttons ul li a:hover {
+    opacity: 0.5;
+   }
+   
+   .btn-cssbuttons:hover::before {
+    transform: scale(1.2);
+   }
+   
+   .btn-cssbuttons:hover span,
+   .btn-cssbuttons:hover span span {
+    transform: translateY(-55px);
+   }
+   
+   .btn-cssbuttons:hover ul li a {
+    transform: translateY(0);
+   }
+   
+   .btn-cssbuttons:hover ul li:nth-child(1) a {
+    transition-delay: 0.15s;
+   }
+   
+   .btn-cssbuttons:hover ul li:nth-child(2) a {
+    transition-delay: 0.2s;
+   }
+   
+   .btn-cssbuttons:hover ul li:nth-child(3) a {
+    transition-delay: 0.25s;
+   }
+
+   /* login top button */
+
+   button {
+    position: relative;
+    width: 11em;
+    height: 4em;
+    outline: none;
+    transition: 0.1s;
+    background-color: transparent;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ddebf0;
+  }
+  
+  #clip {
+    --color: #2761c3;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border: 5px double var(--color);
+    box-shadow: inset 0px 0px 15px #195480;
+    -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  }
+  
+  .arrow {
+    position: absolute;
+    transition: 0.2s;
+    background-color: #2761c3;
+    top: 35%;
+    width: 11%;
+    height: 30%;
+  }
+  
+  #leftArrow {
+    left: -13.5%;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 50%);
+  }
+  
+  #rightArrow {
+    -webkit-clip-path: polygon(100% 49%, 0 0, 0 100%);
+    left: 102%;
+  }
+  
+  button:hover #rightArrow {
+    background-color: #27c39f;
+    left: -15%;
+    animation: 0.6s ease-in-out both infinite alternate rightArrow8;
+  }
+  
+  button:hover #leftArrow {
+    background-color: #27c39f;
+    left: 103%;
+    animation: 0.6s ease-in-out both infinite alternate leftArrow8;
+  }
+  
+  .corner {
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    background-color: #2761c3;
+    box-shadow: inset 1px 1px 8px #2781c3;
+    transform: scale(1) rotate(45deg);
+    transition: 0.2s;
+  }
+  
+  #rightTop {
+    top: -1.98em;
+    left: 91%;
+  }
+  
+  #leftTop {
+    top: -1.96em;
+    left: -3.0em;
+  }
+  
+  #leftBottom {
+    top: 2.10em;
+    left: -2.15em;
+  }
+  
+  #rightBottom {
+    top: 45%;
+    left: 88%;
+  }
+  
+  button:hover #leftTop {
+    animation: 0.1s ease-in-out 0.05s both changeColor8,
+    0.2s linear 0.4s both lightEffect8;
+  }
+  
+  button:hover #rightTop {
+    animation: 0.1s ease-in-out 0.15s both changeColor8,
+    0.2s linear 0.4s both lightEffect8;
+  }
+  
+  button:hover #rightBottom {
+    animation: 0.1s ease-in-out 0.25s both changeColor8,
+    0.2s linear 0.4s both lightEffect8;
+  }
+  
+  button:hover #leftBottom {
+    animation: 0.1s ease-in-out 0.35s both changeColor8,
+    0.2s linear 0.4s both lightEffect8;
+  }
+  
+  button:hover .corner {
+    transform: scale(1.25) rotate(45deg);
+  }
+  
+  button:hover #clip {
+    animation: 0.2s ease-in-out 0.55s both greenLight8;
+    --color: #27c39f;
+  }
+  
+  @keyframes changeColor8 {
+    from {
+      background-color: #2781c3;
+    }
+  
+    to {
+      background-color: #27c39f;
+    }
+  }
+  
+  @keyframes lightEffect8 {
+    from {
+      box-shadow: 1px 1px 5px #27c39f;
+    }
+  
+    to {
+      box-shadow: 0 0 2px #27c39f;
+    }
+  }
+  
+  @keyframes greenLight8 {
+    from {
+    }
+  
+    to {
+      box-shadow: inset 0px 0px 32px #27c39f;
+    }
+  }
+  
+  @keyframes leftArrow8 {
+    from {
+      transform: translate(0px);
+    }
+  
+    to {
+      transform: translateX(10px);
+    }
+  }
+  
+  @keyframes rightArrow8 {
+    from {
+      transform: translate(0px);
+    }
+  
+    to {
+      transform: translateX(-10px);
+    }
+  }
+  
+  
+  

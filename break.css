@@ -1,0 +1,91 @@
+.navbar-brand img{
+    width: 40px !important;
+    border-radius: 22px !important;
+}
+.rest {
+    background-image: url('https://img.freepik.com/premium-psd/restaurant-food-menu-landing-page-web-ui-design-template_486734-353.jpg');
+    width: 100%;
+    height: 100%;
+  background-repeat: no-repeat;
+}
+.ye{
+    text-align: center;
+   margin-left: 155px;
+   justify-content: center;
+    margin-top: 59px;
+}
+.food{
+    /* border: 1px solid rgb(22, 232, 54) !important; */
+    width: 45%;
+    margin-top: 143px;
+    height: 50%;
+    margin-left: 32px;
+}
+.food img{
+    /* margin-left: 32px; */
+    width: 100%;
+    height: 100%;
+}
+.conte{
+    /* border: 1px solid rgb(184, 15, 15) !important; */
+    /* margin-left:44px ; */
+    width: 55%;
+    margin-top: 33px;
+    height: 50%;
+    margin-left: 32px;
+    background-color: rgb(211, 211, 182);
+   
+}
+.demand{
+    text-align: center;
+    /* border: 1px solid black !important; */
+    display: flex;
+    background-color: rgb(254, 254, 247);
+}
+#but a{
+    color: white;
+}
+
+#but{
+    background-color: black;
+    box-shadow: violet;
+    box-sizing: border-box;
+}
+ 
+/* ?this is footer  */
+
+
+.help{
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+    padding: 22px;
+}
+ .call{
+    margin-right: 18px;
+    padding-right: 22px;
+ }
+.ca{
+    margin-right: 18px;
+    padding-right: 22px;
+}
+.cal{
+    margin-right: 18px;
+    padding-right: 22px;
+}
+ul{
+    padding-top: 5px;
+    margin-right: 12px;
+}
+.li{
+    list-style: none;
+    
+}
+.write{
+    display: flex;
+    padding-left: 32px;
+    margin-left: 22px;
+}
+.footer{
+    background-color: rgb(222, 179, 217);
+}
